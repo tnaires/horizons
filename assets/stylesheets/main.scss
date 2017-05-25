@@ -1,0 +1,33 @@
+---
+---
+
+$font-stack: "Lucida console", Monaco, monospace;
+$font-size: 18px;
+
+body {
+  @media screen and (min-width: 700px) {
+    width: 700px;
+  }
+
+  @media screen and (max-width: 699px) {
+    width: 100%;
+  }
+
+  margin: 0 auto;
+  font: $font-size $font-stack;
+
+  header {
+    width: 100%;
+
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  nav {
+    text-align: right;
+    padding: 0.5em;
+  }
+}
