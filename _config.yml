@@ -8,10 +8,10 @@ baseurl: ""
 url: "http://tnaires.github.io/horizons/"
 twitter_username: tnaires
 github_username: tnaires
+timezone: America/Recife
+permalink: pretty
+paginate: 10
 
-markdown: kramdown
 gems:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+  - jekyll-paginate
