@@ -1,8 +1,17 @@
 ---
 ---
 
-$font-stack: "Lucida console", Monaco, monospace;
-$font-size: 18px;
+$font-stack: "Lucida Console", Monaco, monospace;
+$font-size: 15px;
+
+$lighter-brown: #ffffe6;
+$light-brown: #ffffcc;
+$dark-brown: #4d3319;
+
+html {
+  background: linear-gradient($light-brown, $lighter-brown);
+  height: 100%;
+}
 
 body {
   @media screen and (min-width: 700px) {
@@ -15,6 +24,10 @@ body {
 
   margin: 0 auto;
   font: $font-size $font-stack;
+  background-color: white;
+  min-height: 100%;
+
+  box-shadow: 0 0 20px black;
 
   header {
     width: 100%;
@@ -28,6 +41,11 @@ body {
 
   nav {
     text-align: right;
-    padding: 0.5em;
+    padding: 0.8em;
+  }
+
+  main {
+    padding-left: 1.5em;
+    padding-rigth: 1.5em;
   }
 }

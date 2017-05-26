@@ -9,9 +9,7 @@ url: "http://tnaires.github.io/horizons/"
 twitter_username: tnaires
 github_username: tnaires
 timezone: America/Recife
-permalink: pretty
-paginate: 10
+permalink: /:year/:month/:day/:title/
 
 gems:
   - jekyll-feed
-  - jekyll-paginate
