@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Third post"
+thumbnail: 3.jpg
 date: 2017-02-02 09:00:00 -0300
 categories: cat1
 tags: t2 t3

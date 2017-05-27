@@ -2,50 +2,65 @@
 ---
 
 $font-stack: "Lucida Console", Monaco, monospace;
-$font-size: 15px;
+$font-size: 14px;
 
-$lighter-brown: #ffffe6;
-$light-brown: #ffffcc;
+$light-brown: #ffffe6;
 $dark-brown: #4d3319;
 
 html {
-  background: linear-gradient($light-brown, $lighter-brown);
+  background-color: $light-brown;
   height: 100%;
-}
 
-body {
-  @media screen and (min-width: 700px) {
-    width: 700px;
-  }
-
-  @media screen and (max-width: 699px) {
-    width: 100%;
-  }
-
-  margin: 0 auto;
-  font: $font-size $font-stack;
-  background-color: white;
-  min-height: 100%;
-
-  box-shadow: 0 0 20px black;
-
-  header {
-    width: 100%;
-
-    img {
-      max-width: 100%;
-      display: block;
-      margin: 0 auto;
+  body {
+    @media screen and (min-width: 700px) {
+      width: 700px;
     }
-  }
 
-  nav {
-    text-align: right;
-    padding: 0.8em;
-  }
+    @media screen and (max-width: 699px) {
+      width: 100%;
+    }
 
-  main {
-    padding-left: 1.5em;
-    padding-rigth: 1.5em;
+    margin: 0 auto;
+    font: $font-size $font-stack;
+    background-color: white;
+    min-height: 100%;
+
+    box-shadow: 0 0 20px black;
+
+    header {
+      width: 100%;
+
+      img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    nav {
+      text-align: right;
+      padding: 0.8em;
+    }
+
+    main {
+      padding: 1.5em;
+    }
+
+    .post-list {
+      list-style-type: none;
+    }
+
+    .post-item {
+      article {
+        overflow: auto;
+
+        img {
+          width: 100px;
+          height: 100px;
+
+          float: left;
+        }
+      }
+    }
   }
 }

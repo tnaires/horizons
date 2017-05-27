@@ -1,4 +1,14 @@
 ---
 layout: default
 ---
-<h1>Test</h1>
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li class="post-item">
+      <article>
+        <img src="/assets/images/thumbnails/{{ post.thumbnail }}">
+        <h1><a href="{{ post.url  }}">{{ post.title }}</a></h1>
+        <p>{{ post.excerpt }}</p>
+      </article>
+    </li>
+  {% endfor %}
+</ul>
