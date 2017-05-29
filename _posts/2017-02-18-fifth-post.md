@@ -2,8 +2,9 @@
 layout: default
 title: "Fifth post"
 thumbnail: 5.jpg
+thumbnail_alt: Five
 date: 2017-02-18 10:00:00 -0300
-categories: cat4
+categories: ["Oldies"]
 tags: t4 t5
 excerpt: The fifth post of this blog.
 ---
