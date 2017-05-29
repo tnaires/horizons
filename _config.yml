@@ -11,5 +11,11 @@ github_username: tnaires
 timezone: America/Recife
 permalink: /:year/:month/:day/:title/
 
+defaults:
+  - scope:
+      path: "assets/images/backgrounds"
+    values:
+      background: true
+
 gems:
   - jekyll-feed

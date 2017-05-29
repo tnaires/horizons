@@ -1,2 +1,38 @@
 ---
 ---
+$font-stack: "Lucida Console", Monaco, monospace;
+$font-size: 14px;
+
+html {
+  body {
+    margin: 0 auto;
+    font: $font-size $font-stack;
+
+    header {
+      height: 93px;
+      background-repeat: repeat-x;
+
+      position: relative;
+
+      img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 280px;
+      }
+    }
+
+    nav {
+      margin: 0 auto;
+      text-align: center;
+      padding: 5px;
+    }
+
+    main {
+      width: 85%;
+      margin: 0 auto;
+    }
+  }
+}
