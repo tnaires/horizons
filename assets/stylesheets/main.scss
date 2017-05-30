@@ -23,9 +23,15 @@ html {
     header {
       height: 150px;
       background-repeat: repeat-x;
-      background-size: contain;
-
       position: relative;
+
+      @media screen and (min-width: 841px) {
+        background-size: contain;
+      }
+
+      @media screen and (max-width: 840px) {
+        background-size: cover;
+      }
 
       img {
         position: absolute;
