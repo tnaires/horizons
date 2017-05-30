@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Third post"
 thumbnail: 3.jpg
 thumbnail_alt: Three

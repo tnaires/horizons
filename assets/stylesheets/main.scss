@@ -1,12 +1,24 @@
 ---
 ---
-$font-stack: "Lucida Console", Monaco, monospace;
-$font-size: 14px;
+@font-face {
+  font-family: 'Corbert';
+  src:
+    url('{{ "/assets/fonts/Corbert-Regular.otf" | relative_url }}')
+    format('opentype');
+}
+
+$font-stack: 'Corbert', sans-serif;
+$font-size: 18px;
+
+$midnight-blue: #2c3e50;
+$wet-aslphalt: #34495e;
+$silver: #bdc3c7;
 
 html {
   body {
     margin: 0 auto;
     font: $font-size $font-stack;
+    color: $wet-aslphalt;
 
     header {
       height: 93px;
@@ -20,19 +32,32 @@ html {
         top: 50%;
         transform: translate(-50%, -50%);
 
-        width: 280px;
+        width: 350px;
       }
     }
 
     nav {
       margin: 0 auto;
       text-align: center;
-      padding: 5px;
+      padding-top: 0.8em;
+      padding-bottom: 0.8em;
+      border-bottom: 1px solid $silver;
+      font-weight: bold;
+
+      a {
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+      }
     }
 
     main {
-      width: 85%;
+      width: 90%;
       margin: 0 auto;
+
+      article {
+        padding: 2em;
+        line-height: 1.7;
+      }
     }
   }
 }

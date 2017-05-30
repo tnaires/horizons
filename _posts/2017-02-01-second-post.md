@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Second post"
 thumbnail: 2.jpg
 thumbnail_alt: Two
