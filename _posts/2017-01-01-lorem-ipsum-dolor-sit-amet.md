@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-thumbnail: 1.jpg
-thumbnail_alt: One
 date: 2017-01-01 13:00:00 -0300
 categories: ["Oldies BR"]
 tags: t1 t2

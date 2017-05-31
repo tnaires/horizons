@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Fifth post"
-thumbnail: 5.jpg
-thumbnail_alt: Five
 date: 2017-02-18 10:00:00 -0300
 categories: ["Oldies"]
 tags: t4 t5

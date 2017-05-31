@@ -4,15 +4,10 @@ layout: default
 <ul class="post-list">
   {% for post in site.posts %}
     <li class="post-item">
-      <article>
-        <img src="{{ post.thumbnail | prepend: "/assets/images/thumbnails/" | relative_url }}" alt="{{ post.thumbnail_alt }}">
-        <section>
-          <p class="category">{{ post.categories.first }}</p>
-          <h3 class="title"><a href="{{ post.url | relative_url  }}">{{ post.title }}</a></h3>
-          <p class="publish-date">Publicado em {{ post.date | date: "%d/%m/%Y" }}</p>
-          <p class="excerpt">{{ post.excerpt }}</p>
-        </section>
-      </article>
+      <p class="category">{{ post.categories.first }}</p>
+      <h3 class="title"><a href="{{ post.url | relative_url  }}">{{ post.title }}</a></h3>
+      <p class="publish-date">Publicado em {{ post.date | date: "%d/%m/%Y" }}</p>
+      <p class="excerpt">{{ post.excerpt }}</p>
     </li>
   {% endfor %}
 </ul>

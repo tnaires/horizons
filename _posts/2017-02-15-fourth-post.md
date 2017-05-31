@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Fourth post"
-thumbnail: 4.jpg
-thumbnail_alt: Four
 date: 2017-02-15 22:00:00 -0300
 categories: ["Jukebox"]
 tags: t1 t4

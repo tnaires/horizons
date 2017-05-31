@@ -60,10 +60,16 @@ html {
     main {
       width: 90%;
       margin: 0 auto;
+      line-height: 1.7;
 
       article {
         padding: 2em;
-        line-height: 1.7;
+      }
+
+      .post-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 2em;
       }
     }
   }
