@@ -6,8 +6,6 @@ categories: ["Oldies BR"]
 tags: t1 t2
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et faucibus velit. Curabitur non justo ac lacus pharetra volutpat sit amet eu sapien.
 ---
-# Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et faucibus velit. Curabitur non justo ac lacus pharetra volutpat sit amet eu sapien. Vivamus ultrices, diam eget lobortis elementum, turpis quam pretium mi, ac molestie est augue vel massa. Morbi dolor metus, hendrerit vel cursus sed, euismod ac mi. Curabitur at eros id magna venenatis efficitur a at nibh. Ut lobortis dignissim sapien sed ultrices. Morbi mollis faucibus tincidunt. Vivamus suscipit, nisl eget semper lacinia, massa orci fermentum nisl, vitae egestas lectus erat et nisl. Praesent commodo gravida nunc, vel aliquam metus pretium vel.
 
 Nullam scelerisque sem eu mauris pellentesque, interdum gravida neque cursus. Pellentesque ex risus, sollicitudin sit amet euismod a, facilisis et ipsum. Morbi venenatis blandit nisl, sed dapibus dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque finibus rhoncus lectus, ut pulvinar nulla maximus vel. Curabitur lobortis metus sit amet turpis posuere fermentum. Aliquam iaculis aliquam rhoncus.

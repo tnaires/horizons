@@ -69,36 +69,37 @@ html {
       margin: 0 auto;
       line-height: 1.7;
 
+      .post-info {
+        .category {
+          margin: 0;
+          font-weight: bold;
+        }
+
+        .title {
+          margin: 0;
+          line-height: 1.2;
+        }
+
+        .published-date {
+          margin: 0;
+          font-size: 12px;
+        }
+      }
+
       article {
         padding: 2em;
       }
 
-      .post-list {
+      ul {
         list-style-type: none;
         margin: 0;
         padding: 2em;
 
-        .post-item {
+        li {
           margin-bottom: 1.5em;
 
           &:last-child {
             margin-bottom: 0;
-          }
-
-          p, h2 {
-            margin: 0;
-          }
-
-          .category {
-            font-weight: bold;
-          }
-
-          .title {
-            line-height: 1.2;
-          }
-
-          .published-date {
-            font-size: 12px;
           }
 
           .excerpt {

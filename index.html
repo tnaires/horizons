@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<ul class="post-list">
+<ul>
   {% for post in site.posts %}
-    <li class="post-item">
+    <li class="post-info">
       <p class="category">{{ post.categories.first }}</p>
       <h2 class="title"><a href="{{ post.url | relative_url  }}">{{ post.title }}</a></h2>
       <p class="published-date">Publicado em {{ post.date | date: "%d/%m/%Y" }}</p>
