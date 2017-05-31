@@ -10,15 +10,40 @@
 $font-stack: 'Corbert', sans-serif;
 $font-size: 18px;
 
-$midnight-blue: #2c3e50;
 $wet-aslphalt: #34495e;
 $silver: #bdc3c7;
+$peter-river: #3498db;
+$wisteria: #8e44ad;
+$pumpkin: #d35400;
+$nephritis: #27ae60;
 
 html {
   body {
     margin: 0 auto;
     font: $font-size $font-stack;
     color: $wet-aslphalt;
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:link {
+      color: $peter-river;
+    }
+
+    a:visited {
+      color: $wisteria;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: $pumpkin;
+    }
+
+    a:active {
+      color: $nephritis;
+    }
 
     header {
       height: 150px;
@@ -49,7 +74,6 @@ html {
       padding-top: 0.8em;
       padding-bottom: 0.8em;
       border-bottom: 1px solid $silver;
-      font-weight: bold;
 
       a {
         padding-left: 0.4em;
