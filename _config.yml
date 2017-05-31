@@ -4,8 +4,8 @@ description: >
   Este é um blog sobre jogos de videogame! Procurarei escrever aqui sobre
   todos os jogos que marcaram minha infância e adolescência, e também
   sobre os que continuam me marcando atualmente.
-baseurl: ""
-url: "http://tnaires.github.io/horizons/"
+baseurl: "/horizons"
+url: "http://tnaires.github.io"
 twitter_username: tnaires
 github_username: tnaires
 timezone: America/Recife

@@ -4,7 +4,7 @@
 let backgroundImages = [];
 
 {% for background_image in background_images %}
-  backgroundImages.push('{{ background_image.path }}');
+  backgroundImages.push('{{ background_image.path | relative_url }}');
 {% endfor %}
 
 let header = document.querySelector('header');
