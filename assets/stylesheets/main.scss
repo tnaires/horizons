@@ -70,6 +70,34 @@ html {
         list-style-type: none;
         margin: 0;
         padding: 2em;
+
+        .post-item {
+          margin-bottom: 1.5em;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          p, h2 {
+            margin: 0;
+          }
+
+          .category {
+            font-weight: bold;
+          }
+
+          .title {
+            line-height: 1.2;
+          }
+
+          .published-date {
+            font-size: 12px;
+          }
+
+          .excerpt {
+            margin-top: 0.2em;
+          }
+        }
       }
     }
   }
