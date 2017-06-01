@@ -1,13 +1,18 @@
 ---
 layout: default
 ---
-<ul>
-  {% for post in site.posts %}
-    <li class="post-info">
-      <p class="category">{{ post.categories.first }}</p>
-      <h2 class="title"><a href="{{ post.url | relative_url  }}">{{ post.title }}</a></h2>
-      <p class="published-date">Publicado em {{ post.date | date: "%d/%m/%Y" }}</p>
-      <p class="excerpt">{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+{% assign post_count = site.posts | size %}
+{% if post_count > 0 %}
+  <ul>
+    {% for post in site.posts %}
+      <li class="post-info">
+        <p class="category">{{ post.categories.first }}</p>
+        <h2 class="title"><a href="{{ post.url | relative_url  }}">{{ post.title }}</a></h2>
+        <p class="published-date">Publicado em {{ post.date | date: "%d/%m/%Y" }}</p>
+        <p class="excerpt">{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="msg">Nenhum post disponível ainda. Volte depois!</p>
+{% endif %}
