@@ -1,5 +1,5 @@
 ---
 layout: default
-description: "Oldies BR"
+title: "Oldies BR"
 ---
-{% include section_posts.html section = page.description %}
+{% include section_posts.html section = page.title %}

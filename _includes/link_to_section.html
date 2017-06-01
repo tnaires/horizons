@@ -1,2 +1,2 @@
 {% assign section-file = include.section.path | split: "/" | last | split: "." | first %}
-<a href="{{ "/sections/" | append: section-file | relative_url }}">{{ include.section.description }}</a>
+<a href="{{ "/sections/" | append: section-file | relative_url }}">{{ include.section.title }}</a>
