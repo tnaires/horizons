@@ -1,5 +1,4 @@
 ---
-layout: default
+layout: section
 title: "Oldies BR"
 ---
-{% include section_posts.html section = page.title %}

@@ -1,5 +1,4 @@
 ---
-layout: default
+layout: section
 title: "Off topic"
 ---
-{% include section_posts.html section = page.title %}

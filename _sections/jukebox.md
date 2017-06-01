@@ -1,5 +1,4 @@
 ---
-layout: default
+layout: section
 title: "Jukebox"
 ---
-{% include section_posts.html section = page.title %}

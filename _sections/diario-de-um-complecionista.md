@@ -1,5 +1,4 @@
 ---
-layout: default
+layout: section
 title: "Diário de um complecionista"
 ---
-{% include section_posts.html section = page.title %}
