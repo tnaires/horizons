@@ -1,0 +1,2 @@
+{% assign section_posts = site.posts | where: "section", include.section %}
+{% include post_list.html posts = section_posts %}

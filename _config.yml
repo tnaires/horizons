@@ -17,5 +17,9 @@ defaults:
     values:
       background: true
 
+collections:
+  sections:
+    output: true
+
 gems:
   - jekyll-feed

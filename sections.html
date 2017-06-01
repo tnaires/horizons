@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% assign sections = site.sections | sort %}
+{% if sections.size > 0 %}
+  <ul>
+    {% for section in sections %}
+      <li>
+        {% include link_to_section.html section = section %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="msg">Não há seções para mostrar.</p>
+{% endif %}

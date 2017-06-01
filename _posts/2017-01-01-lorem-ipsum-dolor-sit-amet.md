@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2017-01-01 13:00:00 -0300
-categories: ["Oldies BR"]
-tags: t1 t2
+section: Oldies BR
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et faucibus velit. Curabitur non justo ac lacus pharetra volutpat sit amet eu sapien.
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et faucibus velit. Curabitur non justo ac lacus pharetra volutpat sit amet eu sapien. Vivamus ultrices, diam eget lobortis elementum, turpis quam pretium mi, ac molestie est augue vel massa. Morbi dolor metus, hendrerit vel cursus sed, euismod ac mi. Curabitur at eros id magna venenatis efficitur a at nibh. Ut lobortis dignissim sapien sed ultrices. Morbi mollis faucibus tincidunt. Vivamus suscipit, nisl eget semper lacinia, massa orci fermentum nisl, vitae egestas lectus erat et nisl. Praesent commodo gravida nunc, vel aliquam metus pretium vel.
