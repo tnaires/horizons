@@ -1,4 +1,5 @@
 ---
 layout: section
-title: "Jukebox"
+title: Jukebox
+description: Relembre comigo as músicas dos jogos que mais me marcaram!
 ---
