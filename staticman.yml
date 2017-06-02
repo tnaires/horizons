@@ -1,0 +1,12 @@
+comments:
+  filename: "{@timestamp}"
+  path: "_data/comments"
+  format: "yaml"
+
+  allowedFields: ["name", "message"]
+  requiredFields: ["name", "message"]
+
+  branch: "master"
+  commitMessage: "Add Staticman data"
+  pullRequestBody: "New comment posted to Horizons"
+  moderation: true

@@ -1,13 +1,14 @@
 <div class="comments">
-  <form method="POST">
+  <form method="POST" action="https://api.staticman.net/v2/entry/tnaires/horizons/master">
+    <input name="options[redirect]" type="hidden" value="{{ page.url | absolute_url }}">
     <h3>Deixe um comentário</h3>
     <label for="name">Nome:</label>
     <br>
     <input id="name" type="text" name="fields[name]" class="input-control" maxlength="50">
     <br>
-    <label for="comment">Mensagem (sintaxe <a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> habilitada):</label>
+    <label for="message">Mensagem (sintaxe <a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> habilitada):</label>
     <br>
-    <textarea id="comment" name="fields[comment]" class="input-control"></textarea>
+    <textarea id="message" name="fields[message]" class="input-control"></textarea>
     <br>
     <button type="submit">Comentar</button>
   </form>
