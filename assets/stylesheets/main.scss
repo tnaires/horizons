@@ -16,6 +16,7 @@ $peter-river: #3498db;
 $wisteria: #8e44ad;
 $pumpkin: #d35400;
 $nephritis: #27ae60;
+$clouds: #ecf0f1;
 
 html {
   body {
@@ -142,6 +143,53 @@ html {
 
           .excerpt {
             margin-top: 0.2em;
+          }
+        }
+      }
+
+      .comments {
+        width: 70%;
+        margin: 2.5em auto 0 auto;
+
+        form {
+          border: 1px solid $wet-aslphalt;
+          padding: 1.5em;
+          background-color: $clouds;
+
+          h3 {
+            margin-top: 0;
+          }
+
+          .input-control {
+            font-size: 14px;
+            width: 100%;
+            border: 1px solid $wet-aslphalt;
+
+            &:focus {
+              outline: none;
+            }
+          }
+
+          input {
+            height: 25px;
+          }
+
+          textarea {
+            height: 200px;
+            resize: vertical;
+          }
+
+          button {
+            margin-top: 0.5em;
+            font-size: 18px;
+            border: 1px solid $wet-aslphalt;
+            color: $wet-aslphalt;
+            background-color: white;
+
+            &:hover {
+              color: $clouds;
+              background-color: $wet-aslphalt;
+            }
           }
         }
       }
