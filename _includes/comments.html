@@ -1,5 +1,5 @@
 <div class="comments">
-  {% assign comments = site.data.comments[page.slug] %}
+  {% assign comments = site.data.comments[page.slug] | sort %}
   {% if comments.size > 0 %}
     <h2>{{ comments.size }} comentário{% if comments.size > 1 %}s{% endif %}.</h2>
     <ul>
