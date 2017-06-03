@@ -5,11 +5,6 @@ comments:
 
   allowedFields: ["name", "message"]
   requiredFields: ["name", "message"]
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601"
 
   branch: "master"
   commitMessage: "Add Staticman data"

@@ -7,8 +7,8 @@
       {% for comment in sorted_comments %}
         <li>
           <p class="author-name">{{ comment[1].name }}</p>
-          <p class="date">{{ comment[1].date | date: "%d/%m/%Y às %H:%M" }}</p>
-          <span class="message">{{ comment[1].message | markdownify }}</span>
+          <p class="comment-date">{{ comment[0] }}</p>
+          <span class="comment-message">{{ comment[1].message | markdownify }}</span>
         </li>
       {% endfor %}
     </ul>
@@ -31,4 +31,13 @@
     <button type="submit">Comentar</button>
     <span>(sujeito a moderação)</span>
   </form>
+
+  <script>
+    let commentDateElements = document.getElementsByClassName('comment-date');
+
+    for (let i = 0; i < commentDateElements.length; i++) {
+      let element = commentDateElements[i];
+      element.innerHTML = moment(parseInt(element.innerHTML)).format("DD/MM/YYYY [às] hh:mm");
+    }
+  </script>
 </div>
