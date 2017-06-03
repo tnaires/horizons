@@ -148,7 +148,14 @@ html {
       }
 
       .comments {
-        width: 70%;
+        @media screen and (min-width: 680px) {
+          width: 600px;
+        }
+
+        @media screen and (max-width: 679px) {
+          width: 100%;
+        }
+
         margin: 2.5em auto 0 auto;
 
         form {
