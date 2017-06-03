@@ -148,6 +148,43 @@ html {
         }
       }
 
+      .about {
+        h1, h3 {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+
+        p {
+          margin-top: 0;
+        }
+
+        img {
+          @media screen and (min-width: 800px) {
+            width: 400px;
+          }
+
+          @media screen and (max-width: 799px) {
+            width: 200px;
+          }
+        }
+
+        .about-blog {
+          figure {
+            text-align: center;;
+
+            figcaption {
+              font-size: 15px;
+            }
+          }
+        }
+
+        .about-me {
+          figure {
+            margin: 0;
+          }
+        }
+      }
+
       .comments {
         @media screen and (min-width: 800px) {
           width: 600px;
