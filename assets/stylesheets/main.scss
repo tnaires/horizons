@@ -148,24 +148,53 @@ html {
       }
 
       .comments {
-        @media screen and (min-width: 680px) {
+        @media screen and (min-width: 800px) {
           width: 600px;
+          margin: 0 auto 0 auto;
         }
 
-        @media screen and (max-width: 679px) {
-          width: 100%;
+        @media screen and (max-width: 799px) {
+          max-width: 100%;
+          margin: 0 2em 0 2em;
         }
 
-        margin: 2.5em auto 0 auto;
+        h2 {
+          margin-top: 0;
+        }
+
+        ul {
+          padding: 0;
+
+          li {
+            border-bottom: 1px solid $silver;
+          }
+
+          li:last-child {
+            margin-bottom: 1.5em;
+            border-bottom: 0;
+          }
+
+          .author-name {
+            margin: 0;
+            font-weight: bold;
+            font-size: 20px;
+          }
+
+          .date {
+            margin: 0;
+            font-size: 12px;
+          }
+
+          .message p {
+            margin-top: 0.2em;
+            line-height: 1.4em;
+          }
+        }
 
         form {
           border: 1px solid $wet-aslphalt;
           padding: 1.5em;
           background-color: $clouds;
-
-          h3 {
-            margin-top: 0;
-          }
 
           .input-control {
             font-size: 14px;
