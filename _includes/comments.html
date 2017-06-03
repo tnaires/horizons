@@ -33,11 +33,10 @@
   </form>
 
   <script>
-    let commentDateElements = document.getElementsByClassName('comment-date');
-
-    for (let i = 0; i < commentDateElements.length; i++) {
-      let element = commentDateElements[i];
-      element.innerHTML = moment(parseInt(element.innerHTML)).format("DD/MM/YYYY [às] HH:mm");
-    }
+    $('.comment-date').each(function() {
+      let $element = $(this);
+      let parsedDate = moment(parseInt($element.text())).format("DD/MM/YYYY [às] HH:mm");
+      $element.text(parsedDate);
+    });
   </script>
 </div>

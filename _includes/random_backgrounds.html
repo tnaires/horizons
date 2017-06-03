@@ -1,1 +1,11 @@
-<script src="{{ "/assets/javascript/random_background.js" | relative_url }}"></script>
+<script>
+  {% assign background_images = site.static_files | where: "background", true %}
+  let backgroundImages = [];
+
+  {% for background_image in background_images %}
+    backgroundImages.push('{{ background_image.path | relative_url }}');
+  {% endfor %}
+
+  let randomBackground = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
+  $('header').css('background-image', `url(${randomBackground})`);
+</script>
