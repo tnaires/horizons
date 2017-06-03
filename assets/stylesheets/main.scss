@@ -17,6 +17,7 @@ $wisteria: #8e44ad;
 $pumpkin: #d35400;
 $nephritis: #27ae60;
 $clouds: #ecf0f1;
+$alizarin: #e74c3c;
 
 html {
   body {
@@ -226,6 +227,27 @@ html {
               color: $clouds;
               background-color: $wet-aslphalt;
             }
+          }
+
+          #submitSpinner {
+            height: 30px;
+            width: 30px;
+            display: none;
+            margin-top: 1.4em;
+            padding-left: 1.4em;
+          }
+
+          .message {
+            display: none;
+            font-size: 12px;
+          }
+
+          #success {
+            color: $nephritis;
+          }
+
+          #error {
+            color: $alizarin;
           }
         }
       }

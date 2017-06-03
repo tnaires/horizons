@@ -16,8 +16,7 @@
     <h2>Ninguem comentou este post ainda.</h2>
   {% endif %}
 
-  <form method="POST" action="https://api.staticman.net/v2/entry/tnaires/horizons/master/comments">
-    <input name="options[redirect]" type="hidden" value="{{ page.url | absolute_url }}">
+  <form id="postComment">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
     <h3>Deixe um comentário!</h3>
     <label for="name">Nome:</label>
@@ -28,15 +27,63 @@
     <br>
     <textarea id="message" name="fields[message]" class="input-control"></textarea>
     <br>
-    <button type="submit">Comentar</button>
-    <span>(sujeito a moderação)</span>
+    <span>Seu comentário será exibido após moderação.</span>
+    <br>
+    <button id="submitComment" type="submit">Comentar</button>
+    <img id="submitSpinner" src="{{ "/assets/images/spinner.gif" | relative_url }}">
+    <span id="success" class="message">Enviado!</span>
+    <span id="error" class="message">Ops... Verifique se todos os campos foram preenchidos.</span>
   </form>
 
   <script>
+    let disableSubmitButton = function(disabled) {
+      let submitButton = $('#submitComment');
+      let submitSpinner = $('#submitSpinner');
+
+      if (disabled) {
+        submitButton.hide();
+        submitSpinner.show();
+      } else {
+        submitButton.show();
+        submitSpinner.hide();
+      }
+    }
+
+    let hideMessages = function() {
+      $('#success').hide();
+      $('#error').hide();
+    }
+
+    let clearForm = function() {
+      $('#postComment')[0].reset();
+    }
+
     $('.comment-date').each(function() {
       let $element = $(this);
       let parsedDate = moment(parseInt($element.text())).format("DD/MM/YYYY [às] HH:mm");
       $element.text(parsedDate);
+    });
+
+    $('#postComment').submit(function (e) {
+      disableSubmitButton(true);
+      hideMessages();
+
+      $.ajax({
+        type: "POST",
+        url: "https://api.staticman.net/v2/entry/tnaires/horizons/master/comments",
+        data: $(this).serialize(),
+        success: function(data) {
+          disableSubmitButton(false);
+          clearForm();
+          $('#success').show();
+        },
+        error: function(data) {
+          disableSubmitButton(false);
+          $('#error').show();
+        }
+      });
+
+      e.preventDefault();
     });
   </script>
 </div>
