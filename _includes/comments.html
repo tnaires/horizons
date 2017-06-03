@@ -1,9 +1,10 @@
 <div class="comments">
-  {% assign comments = site.data.comments[page.slug] | sort %}
+  {% assign comments = site.data.comments[page.slug] %}
   {% if comments.size > 0 %}
     <h2>{{ comments.size }} comentário{% if comments.size > 1 %}s{% endif %}.</h2>
     <ul>
-      {% for comment in comments %}
+      {% assign sorted_comments = comments | sort %}
+      {% for comment in sorted_comments %}
         <li>
           <p class="author-name">{{ comment[1].name }}</p>
           <p class="date">{{ comment[1].date | date: "%d/%m/%Y às %H:%M" }}</p>
