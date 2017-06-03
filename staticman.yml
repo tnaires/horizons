@@ -1,6 +1,6 @@
 comments:
   filename: "{@timestamp}"
-  path: "_data/comments"
+  path: "_data/comments/{options.slug}"
   format: "yaml"
 
   allowedFields: ["name", "message"]

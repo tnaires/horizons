@@ -1,6 +1,7 @@
 <div class="comments">
   <form method="POST" action="https://api.staticman.net/v2/entry/tnaires/horizons/master/comments">
     <input name="options[redirect]" type="hidden" value="{{ page.url | absolute_url }}">
+    <input name="options[slug]" type="hidden" value="{{ page.slug }}">
     <h3>Deixe um comentário</h3>
     <label for="name">Nome:</label>
     <br>
