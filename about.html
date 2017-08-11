@@ -5,22 +5,23 @@ layout: default
   <h1>Sobre este blog</h1>
   <div class="about-blog">
     <p>Quem já jogou o primeiro <a href="https://pt.wikipedia.org/wiki/Top_Gear_(jogo_eletr%C3%B4nico)">Top Gear</a> do <a href="https://pt.wikipedia.org/wiki/Super_Nintendo_Entertainment_System">SNES</a> sabe o quanto esse jogo foi importante para uma geração inteira de jogadores em vários aspectos, desde seu excelente modo multiplayer local com split screen até sua marcante trilha sonora. Quem jogou deve lembrar também que havia uma tela onde você podia digitar uma <a href="https://pt.wikipedia.org/wiki/Password_(jogos_eletr%C3%B4nicos)">password</a> para avançar para as fases seguintes.</p>
-    <figure>
-      <img alt="Horizons" src="{{ "/assets/images/top_gear_password_horizons.png" | relative_url }}">
-      <figcaption>Tela de password do jogo Top Gear do SNES.</figcaption>
-    </figure>
+    {%
+      include image.html
+      path = "/assets/images/top_gear_password_horizons.png"
+      alt = "Horizons"
+      caption = "Tela de password do jogo Top Gear do SNES."
+    %}
     <p>Ainda lembro que, quando eu chegava nas locadoras de videogame para jogar Top Gear, apareciam vários garotos já gritando: digita "HORIZONS", seu abestalhado! Era a password para pular direto para as corridas da última fase. Eu tinha a impressão que era uma das passwords de jogos mais conhecidas da época.</p>
     <p>Jogar videogame é algo que amo fazer desde criancinha: conheci esse mundo graças ao meu pai, que me deu um <a href="https://pt.wikipedia.org/wiki/Atari">Atari</a> de presente, lá nos anos 80. Desde então, passei por incontáveis jogos que me marcaram bastante e que me rendem boas lembranças até hoje. Criei este blog para escrever sobre esses jogos, e não consegui pensar em ideia melhor para nomeá-lo do que a password que já digitei tantas vezes em partidas intermináveis de Top Gear.</p>
     <p>Os cenários no banner do blog, que são exibidos aleatoriamente cada vez que você atualiza a página, foram extraídos do jogo <a href="https://pt.wikipedia.org/wiki/Top_Gear_3000">Top Gear 3000</a>, também do SNES.</p>
   </div>
   <h1>Sobre mim</h1>
   <div class="about-me">
-    <figure>
-      <img alt="Tarso" src="{{ "/assets/images/Tarso.png" | relative_url }}">
-      <figcaption>
-        <h3>Tarso Nunes Aires</h3>
-        <a href="https://tnaires.github.io/">tnaires.github.io</a>
-      </figcaption>
-    </figure>
+    {%
+      include image.html
+      path = "/assets/images/Tarso.png"
+      alt = "Tarso"
+      caption = "<h3>Tarso Nunes Aires</h3><a href='https://tnaires.github.io/'>tnaires.github.io</a>"
+    %}
   </div>
 </article>

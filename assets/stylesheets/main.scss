@@ -126,6 +126,24 @@ html {
         margin-top: 0;
       }
 
+      .included-image {
+        text-align: center;
+
+        figcaption {
+          font-size: 15px;
+        }
+
+        img {
+          @media screen and (min-width: 800px) {
+            width: 400px;
+          }
+
+          @media screen and (max-width: 799px) {
+            width: 200px;
+          }
+        }
+      }
+
       article {
         padding: 2em;
       }
@@ -156,26 +174,6 @@ html {
 
         p {
           margin-top: 0;
-        }
-
-        img {
-          @media screen and (min-width: 800px) {
-            width: 400px;
-          }
-
-          @media screen and (max-width: 799px) {
-            width: 200px;
-          }
-        }
-
-        .about-blog {
-          figure {
-            text-align: center;;
-
-            figcaption {
-              font-size: 15px;
-            }
-          }
         }
 
         .about-me {
