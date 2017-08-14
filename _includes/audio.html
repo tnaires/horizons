@@ -1,0 +1,9 @@
+{% assign file_path = include.path | relative_url %}
+<div class="included-audio">
+  <audio controls auto>
+    <source src="{{ file_path }}" type="audio/ogg">
+    Seu navegador não suporta os controles de reprodução de áudio utilizados nesse site. Você pode baixar o arquivo <a href="{{ file_path }}">aqui</a> para escutar no seu computador.
+  </audio>
+  <br>
+  <span>{{ include.caption }}</span>
+</div>
