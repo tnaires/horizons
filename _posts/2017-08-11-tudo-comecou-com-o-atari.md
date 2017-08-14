@@ -9,7 +9,7 @@ O que mais eu poderia falar nesse primeiro post do meu blog de jogos, senão a h
 
 ### Meu primeiro videogame!
 
-Eu nasci em 1981, em plena segunda geração de videogames, aproximadamente dois anos antes da [grande recessão da indústria de jogos, ocorrida em 1983](https://pt.wikipedia.org/wiki/Crache_norte-americano_dos_jogos_eletr%C3%B4nicos_de_1983) nos Estados Unidos. Em contraste com a crise que rolava lá, 1983 também foi o ano em que o [Atari 2600](https://pt.wikipedia.org/wiki/Atari_2600) (e seus genéricos, como o Dactar) começaram a chegar no Brasil. A partir daí eu já não sei exatamente quando foi, mas lembro muito bem de um dia que meu pai chegou em casa com um aparelho preto bem estranho que conectava na TV.
+Eu nasci em 1981, em plena segunda geração de videogames, aproximadamente dois anos antes da [grande recessão da indústria de jogos, ocorrida em 1983](https://pt.wikipedia.org/wiki/Crache_norte-americano_dos_jogos_eletr%C3%B4nicos_de_1983) nos Estados Unidos. Em contraste com a crise que rolava lá, 1983 também foi o ano em que o [Atari 2600](https://pt.wikipedia.org/wiki/Atari_2600) (e seus genéricos, como o Dactar) começaram a chegar ao Brasil. A partir daí eu já não sei exatamente quando foi, mas lembro muito bem de um dia que meu pai chegou em casa com um aparelho preto bem estranho que conectava na TV.
 
 {%
   include image.html
