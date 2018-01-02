@@ -1,4 +1,4 @@
-{% assign file_path = include.path | relative_url %}
+{% assign file_path = include.path %}
 <div class="included-audio">
   <audio controls auto>
     <source src="{{ file_path }}" type="audio/ogg">
@@ -6,4 +6,5 @@
   </audio>
   <br>
   <span>{{ include.caption }}</span>
+  <br><br>
 </div>
