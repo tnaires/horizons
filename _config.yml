@@ -10,6 +10,7 @@ twitter_username: tnaires
 github_username: tnaires
 timezone: America/Recife
 permalink: /:year/:month/:day/:title/
+google_analytics: UA-112014819-1
 
 defaults:
   - scope:
