@@ -1,6 +1,7 @@
 ---
 layout: post
 title: O que é ser um complecionista?
+author: Tarso
 date: 2017-08-14 01:30:00 -0300
 section: Diário de um complecionista
 excerpt: Aqui falo sobre o que é ser um complecionista, por que me considero um e o que me motiva a sê-lo.

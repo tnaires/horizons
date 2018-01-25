@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Projeto base de um jogo - primeiros conceitos
+author: Tarso
 date: 2018-01-18 01:00:00 -0300
 section: Mão na massa
 excerpt: Vamos escrever o código base de um jogo simples 2D em Javascript que poderá ser usado para futuros projetos, ao mesmo tempo em que aprenderemos alguns conceitos iniciais.

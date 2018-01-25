@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Meu) Top 15 músicas da série Mega Man X no SNES
+author: Tarso
 date: 2018-01-22 00:20:00 -0300
 section: Jukebox
 excerpt: Minhas 15 músicas favoritas de todos os jogos da série Mega Man X já lançados para o SNES.

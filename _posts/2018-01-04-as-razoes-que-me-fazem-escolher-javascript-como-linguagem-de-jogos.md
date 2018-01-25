@@ -1,6 +1,7 @@
 ---
 layout: post
 title: As razões que me fazem escolher Javascript como linguagem de jogos
+author: Tarso
 date: 2018-01-04 00:10:00 -0300
 section: Mão na massa
 excerpt: Aqui explico os motivos pelos quais Javascript é minha escolha número um para programar pequenos jogos 2D hoje em dia.

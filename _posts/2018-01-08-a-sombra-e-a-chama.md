@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A sombra e a chama
+author: Tarso
 date: 2018-01-08 01:55:00 -0300
 section: Oldies
 excerpt: Narro aqui uma das maiores cagadas que já dei jogando videogame.

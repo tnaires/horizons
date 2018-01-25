@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Alguns sites que considero úteis
+author: Tarso
 date: 2017-08-26 00:30:00 -0300
 section: Off topic
 excerpt: Vou listar aqui alguns sites de utilidades que fazem parte do meu cotidiano gamer.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Smart As... Andarilho global
+author: Tarso
 date: 2018-01-13 16:00:00 -0300
 section: Diário de um complecionista
 excerpt: Nesse primeiro causo envolvendo troféus difíceis, conto o que precisei fazer para pegar os troféus online do jogo Smart As..., do PS Vita antes que os servidores fossem desligados.

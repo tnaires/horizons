@@ -5,7 +5,7 @@
       <li class="post-info">
         <p class="section">{{ post.section }}</p>
         <h2 class="title"><a href="{{ post.url | relative_url  }}">{{ post.title }}</a></h2>
-        <p class="published-date">Publicado em {{ post.date | date: "%d/%m/%Y" }}</p>
+        <p class="published-date">Publicado por {{ post.author }} em {{ post.date | date: "%d/%m/%Y" }}</p>
         <p class="excerpt">{{ post.excerpt }}</p>
       </li>
     {% endfor %}

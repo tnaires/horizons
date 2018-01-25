@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tudo começou com o Atari
+author: Tarso
 date: 2017-08-11 12:00:00 -0300
 section: Oldies
 excerpt: Ganhei um Atari dos meus pais ainda criança, e dessa forma fui apresentado aos videogames. Neste post relembrarei os primeiros jogos que joguei na vida.

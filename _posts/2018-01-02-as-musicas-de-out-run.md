@@ -1,6 +1,7 @@
 ---
 layout: post
 title: As músicas de Out Run
+author: Tarso
 date: 2018-01-02 00:50:00 -0300
 section: Jukebox
 excerpt: No primeiro post da seção Jukebox vamos relembrar a marcante trilha sonora do jogo de corrida Out Run, um clássico dos arcades da década de 80.
