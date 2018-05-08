@@ -5,14 +5,16 @@ layout: default
 {% if sections.size > 0 %}
   <ul>
     {% for section in sections %}
-      <li>
-        {% assign section_posts = site.posts | where: "section", section.title %}
-        <h2 class="section-title">
-          {% include link_to_section.html section = section %}
-          ({{ section_posts.size }} post{% if section_posts.size > 1 %}s{% endif %})
-        </h2>
-        <p class="section-description">{{ section.description }}</p>
-      </li>
+      {% assign section_posts = site.posts | where: "section", section.title %}
+      {% if section_posts.size > 0 %}
+        <li>
+          <h2 class="section-title">
+            {% include link_to_section.html section = section %}
+            ({{ section_posts.size }} post{% if section_posts.size > 1 %}s{% endif %})
+          </h2>
+          <p class="section-description">{{ section.description }}</p>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 {% else %}
