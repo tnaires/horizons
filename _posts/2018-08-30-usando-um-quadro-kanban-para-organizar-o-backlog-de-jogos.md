@@ -28,8 +28,8 @@ Para ilustrar isso, vamos pegar aqui um cenário hipotético com um backlog de 3
 
 Eu quero visualizar a situação de cada jogo de uma maneira fácil, então vou criar um quadro dessa forma:
 
-| A comprar | A jogar | Jogando | Finalizados |
-|-----------|---------|---------|-------------|
+| A comprar | A jogar | Jogando | Finalizado |
+|-----------|---------|---------|------------|
 | | Sonic the Hedgehog | | |
 | | Super Mario 3 | | |
 | | Crash Bandicoot | | |
@@ -38,30 +38,30 @@ Os nomes das colunas são auto explicativos. A coluna "A comprar" representa sua
 
 Vamos supor que eu quero jogar Crash antes de todos os outros. Posso então reordenar a segunda coluna conforme minhas prioridades. A ideia é colocar os jogos que quero jogar primeiro no topo.
 
-| A comprar | A jogar | Jogando | Finalizados |
-|-----------|---------|---------|-------------|
+| A comprar | A jogar | Jogando | Finalizado |
+|-----------|---------|---------|------------|
 | | Crash Bandicoot | | |
 | | Sonic the Hedgehog | | |
 | | Super Mario 3 | | |
 
 Finalmente comecei a jogar Crash: já posso atualizar o quadro. Ao mesmo tempo, ouvi falar do jogo [Silent Hill](https://pt.wikipedia.org/wiki/Silent_Hill_(jogo_eletr%C3%B4nico)) e me interessei em comprar.
 
-| A comprar | A jogar | Jogando | Finalizados |
-|-----------|---------|---------|-------------|
+| A comprar | A jogar | Jogando | Finalizado |
+|-----------|---------|---------|------------|
 | Silent Hill | Sonic the Hedgehog | Crash Bandicoot | |
 | | Super Mario 3 | | |
 
 Nesse meio tempo, comecei a jogar Sonic em paralelo e também comprei Silent Hill.
 
-| A comprar | A jogar | Jogando | Finalizados |
-|-----------|---------|---------|-------------|
+| A comprar | A jogar | Jogando | Finalizado |
+|-----------|---------|---------|------------|
 | | Super Mario 3 | Crash Bandicoot | |
 | | Silent Hill | Sonic the Hedgehog | |
 
 E findou que acabei terminando Sonic antes de Crash (apesar de ter começado a jogar Crash antes).
 
-| A comprar | A jogar | Jogando | Finalizados |
-|-----------|---------|---------|-------------|
+| A comprar | A jogar | Jogando | Finalizado |
+|-----------|---------|---------|------------|
 | | Super Mario 3 | Crash Bandicoot | Sonic the Hedgehog |
 | | Silent Hill | | |
 
