@@ -1,4 +1,4 @@
-<figure class="included-image">
+<figure class="{{ include.class | default: "included-image" }}">
   <img alt="{{ include.alt }}" src="{{ include.path | relative_url }}">
   <figcaption>{{ include.caption }}</figcaption>
 </figure>

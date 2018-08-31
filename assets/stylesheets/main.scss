@@ -9,6 +9,7 @@
 
 $font-stack: 'Corbert', sans-serif;
 $font-size: 18px;
+$table-font-size: 14px;
 
 $wet-aslphalt: #34495e;
 $silver: #bdc3c7;
@@ -149,6 +150,18 @@ html {
         }
       }
 
+      .wider-included-image {
+        text-align: center;
+
+        figcaption {
+          font-size: 15px;
+        }
+
+        img {
+          width: 90%;
+        }
+      }
+
       article {
         padding: 2em;
 
@@ -159,6 +172,30 @@ html {
 
           li {
             margin: 0;
+          }
+        }
+
+        table {
+          border-collapse: collapse;
+          margin: auto;
+          table-layout: fixed;
+
+          @media screen and (min-width: 800px) {
+            width: 80%;
+            font-size: $font-size;
+          }
+
+          @media screen and (max-width: 799px) {
+            width: 100%;
+            font-size: $table-font-size;
+          }
+
+          thead {
+            background-color: $clouds;
+          }
+
+          td {
+            border-bottom: 1px solid $silver;
           }
         }
       }
