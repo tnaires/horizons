@@ -11,6 +11,7 @@ github_username: tnaires
 timezone: America/Recife
 permalink: /:year/:month/:day/:title/
 google_analytics: UA-112014819-1
+staticman_url: https://horizons-staticman.herokuapp.com/v2/entry/tnaires/horizons/master/comments
 
 defaults:
   - scope:
