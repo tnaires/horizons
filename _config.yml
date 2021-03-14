@@ -24,3 +24,6 @@ collections:
 
 plugins:
   - jekyll-feed
+
+exclude:
+  - .jekyll-cache
