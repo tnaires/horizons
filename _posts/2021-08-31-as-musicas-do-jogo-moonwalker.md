@@ -7,7 +7,7 @@ section: Jukebox
 excerpt: Relembrando as músicas do jogo Moonwalker, baseado no filme de Michael Jackson de mesmo nome.
 ---
 
-[Michael Jackson](https://pt.wikipedia.org/wiki/Michael_Jackson) foi um artista que eu sempre ouvia alguma música aqui e acolá na rádio quando eu era criança. Lembro que na época em que a música [Bad](https://pt.wikipedia.org/wiki/Bad_(can%C3%A7%C3%A3o_de_Michael_Jackson)) estourou eu ficava tentando dançar pela casa, mas isso não me tornava necessariamente um fã. Porém alguns anos depois eu joguei o jogo [Moonwalker](https://pt.wikipedia.org/wiki/Michael_Jackson%27s_Moonwalker) no [Mega Drive](https://pt.wikipedia.org/wiki/Mega_Drive) e aí comecei a trilhar um caminho sem volta rumo a me tornar um fã de Michael Jackson.
+[Michael Jackson](https://pt.wikipedia.org/wiki/Michael_Jackson) foi um artista que eu sempre ouvia alguma música aqui e acolá no rádio quando eu era criança. Lembro que na época em que a música [Bad](https://pt.wikipedia.org/wiki/Bad_(can%C3%A7%C3%A3o_de_Michael_Jackson)) estourou eu ficava tentando dançar pela casa, mas isso não me tornava necessariamente um fã. Porém alguns anos depois eu joguei o jogo [Moonwalker](https://pt.wikipedia.org/wiki/Michael_Jackson%27s_Moonwalker) no [Mega Drive](https://pt.wikipedia.org/wiki/Mega_Drive) e aí comecei a trilhar um caminho sem volta rumo a me tornar um fã de Michael Jackson.
 
 {%
   include image.html
