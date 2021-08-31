@@ -62,7 +62,7 @@ Sem mais demora, vamos conferir as músicas presentes no jogo Moonwalker, versã
   caption = "Fase 1 - Smooth Criminal"
 %}
 
-[Smooth Criminal](https://pt.wikipedia.org/wiki/Smooth_Criminal), a música da primeira fase do jogo, é a última faixa do disco Bad. Na verdade, é a última faixa da versão [LP](https://pt.wikipedia.org/wiki/Disco_de_vinil), porque a última faixa da versão em CD é a música [Leave Me Alone](https://pt.wikipedia.org/wiki/Leave_Me_Alone), que está presente no filme mas não no jogo.
+[Smooth Criminal](https://pt.wikipedia.org/wiki/Smooth_Criminal), a música da primeira fase do jogo, é a última faixa do disco Bad. Na verdade, é a última faixa da versão [LP](https://pt.wikipedia.org/wiki/Disco_de_vinil), porque a última faixa da versão em [CD](https://pt.wikipedia.org/wiki/Compact_disc) é a música [Leave Me Alone](https://pt.wikipedia.org/wiki/Leave_Me_Alone), que está presente no filme mas não no jogo.
 
 ---
 
