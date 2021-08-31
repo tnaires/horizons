@@ -108,7 +108,7 @@ Sem mais demora, vamos conferir as músicas presentes no jogo Moonwalker, versã
   caption = "Fase 5 - Bad"
 %}
 
-Bad é a música de abertura do álbum homônimo e é também a música da quinta fase do jogo. Como fã de Michael Jackson, eu não ficava satisfeito apenas em ouvir as músicas: queria também ver os clipes. Mas como o acesso era mais restrito, Bad foi um clipe que eu passei anos sem ter visto. De início vi apenas a versão que tem no filme, onde substituíram os personagens do clipe original por crianças.
+Bad é a música de abertura do álbum homônimo e é também a música da quinta fase do jogo. Como fã de Michael Jackson, eu não ficava satisfeito apenas em ouvir as músicas: queria também ver os clipes. Mas como o acesso era mais restrito, Bad foi um clipe que eu passei anos sem ter visto. De início vi apenas a versão que tem no filme, onde substituíram os atores do clipe original por crianças.
 
 ### Aaaaoowww!
 
