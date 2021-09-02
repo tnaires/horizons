@@ -38,7 +38,7 @@ Meu primo e eu começamos a disputar as ligas, começando pela Knight. Quando ch
   caption = "Olha só o tamanho desse buraco!"
 %}
 
-Uma coisa bastante curiosa pra mim é que F-Zero é o primeiro jogo de corrida que eu lembro de ter jogado que tem uma pista com um atalho. E um atalho bastante útil, diga-se de passagem, pois permite cortar uma seção inteira com obstáculos explosivos bem chatos de passar. O nome da pista é Red Canyon II, e o atalho só é acessível com a utilização do truque de pular mais longe ao segurar o direcional para baixo. A presença desse atalho ativou meu senso de exploração, mas na época essa foi a única pista que achei que tinha um ataho como esse. Teria sido muito legal se esse recurso tivesse sido mais explorado.
+Uma coisa bastante curiosa pra mim é que F-Zero é o primeiro jogo de corrida que eu lembro de ter jogado que tem uma pista com um atalho. E um atalho bastante útil, diga-se de passagem, pois permite cortar uma seção inteira com obstáculos explosivos bem chatos de passar. O nome da pista é Red Canyon II, e o atalho só é acessível com a utilização do truque de pular mais longe ao segurar o direcional para baixo. A presença desse atalho ativou meu senso de exploração, mas na época essa foi a única pista que achei que tinha um atalho como esse. Teria sido muito legal se esse recurso tivesse sido mais explorado.
 
 {%
   include image.html
@@ -58,7 +58,7 @@ Uma coisa bastante curiosa pra mim é que F-Zero é o primeiro jogo de corrida q
 
 É muito bom jogar um bom jogo, melhor ainda é jogar um bom jogo acompanhado de uma boa trilha sonora. E F-Zero não decepciona.
 
-Quase todas as pistas do jogo tem variações. Já até citei algumas acima: tanto a While Land II quanto a Red Canyon II são variações correspondentes às White Land I e Red Canyon I. Mas as variações das pistas compartilham a mesma música, com exceção da própria White Land que tem trilhas diferentes para cada variação (que são arranjos diferentes para a mesma base hamônica e melódica). Todas as músicas são muito boas, mas claro que eu tenho as minhas preferidas hehe. Vou apresentar agora uma lista com 7 músicas do jogo, começando pela que eu menos gosto e terminando com a que eu mais gosto.
+Quase todas as pistas do jogo tem variações. Já até citei algumas acima: tanto a While Land II quanto a Red Canyon II são variações correspondentes às White Land I e Red Canyon I. Mas as variações das pistas compartilham a mesma música, com exceção da própria White Land que tem trilhas diferentes para cada variação (que são arranjos diferentes para a mesma base harmônica e melódica). Todas as músicas são muito boas, mas claro que eu tenho as minhas preferidas hehe. Vou apresentar agora uma lista com 7 músicas do jogo, começando pela que eu menos gosto e terminando com a que eu mais gosto.
 
 ---
 
