@@ -70,7 +70,7 @@
 
       $.ajax({
         type: "POST",
-        url: "https://horizons-staticman.herokuapp.com/v2/entry/tnaires/horizons/master/comments",
+        url: "https://horizons-staticman.fly.dev/v2/entry/tnaires/horizons/master/comments",
         data: $(this).serialize(),
         success: function(data) {
           disableSubmitButton(false);
