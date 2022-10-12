@@ -4,7 +4,7 @@
   font-family: 'Corbert';
   src:
     url('{{ "/assets/fonts/Corbert-Regular.ttf" | relative_url }}')
-    format('opentype');
+    format('TrueType');
 }
 
 $font-stack: 'Corbert', sans-serif;
