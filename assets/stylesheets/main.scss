@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'Corbert';
   src:
-    url('{{ "/assets/fonts/Corbert-Regular.otf" | relative_url }}')
+    url('{{ "/assets/fonts/Corbert-Regular.ttf" | relative_url }}')
     format('opentype');
 }
 
