@@ -5,7 +5,17 @@
       <li class="post-info">
         <p class="section">{{ post.section }}</p>
         <h2 class="title"><a href="{{ post.url | relative_url  }}">{{ post.title }}</a></h2>
-        <p class="published-date">Publicado por {{ post.author }} em {{ post.date | date: "%d/%m/%Y" }}</p>
+
+        {% assign comments = site.data.comments[post.slug] %}
+        <p class="published-date">
+          Publicado por {{ post.author }} em {{ post.date | date: "%d/%m/%Y" }}
+          <img src="{{ "/assets/images/comments.png" | relative_url }}" />
+          {% if comments.size > 0 %}
+            ({{ comments.size }})
+          {% else %}
+            (0)
+          {% endif %}
+        </p>
         <p class="excerpt">{{ post.excerpt }}</p>
       </li>
     {% endfor %}
