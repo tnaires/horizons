@@ -22,7 +22,7 @@ Antes do anúncio do jogo seguinte da série, [Mortal Kombat 2](https://pt.wikip
   include image.html
   path = "/assets/images/mk2/friendship_baraka.png"
   alt = "Friendship"
-  caption = "Baraka oferece um presente para Raiden."
+  caption = "Baraka oferece um presente para Scorpion."
 %}
 
 No fim os boatos foram confirmados. Mortal Kombat 2 apresentava 12 personagens selecionáveis e cada um tinha 2 fatais (alguns 3), um friendship e um babality (que consistia em transformar seu oponente num bebê). E dessa vez a versão de Super Nintendo era bastante fiel à versão de fliperama, inclusive com todo o sangue e a carnificina característicos do jogo. A quantidade de golpes especiais por personagem também aumentou substancialmente. Essa versão veio com bastante conteúdo em relação ao primeiro Mortal Kombat e certamente me rendeu muitas horas de diversão nas locadoras - e muito prejuízo pros meus pais.
