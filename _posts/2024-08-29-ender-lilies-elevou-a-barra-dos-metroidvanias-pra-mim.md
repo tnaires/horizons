@@ -3,7 +3,7 @@ layout: post
 title: Ender Lilies elevou a barra dos Metroidvanias pra mim
 author: Tarso
 date: 2024-08-29 18:30:00 -0300
-section: oldies
+section: Oldies
 excerpt: Ender Lilies elevou meu conceito de Metroidvania a tal ponto que sempre vou lembrar dele quando jogar outros.
 ---
 
@@ -46,7 +46,7 @@ Alguns anos depois de ter jogado SOTN pela primeira vez, rodei emuladores de [GB
   caption = "É possível rodar os Castlevanias de GBA em plataformas atuais graças à coletânea lançada pela Konami."
 %}
 
-Como citei antes, joguei vários Metroids apenas recentemente. E sou apaixonado pela franquia, especialmente por [Metroid Prime](https://pt.wikipedia.org/wiki/Metroid_Prime), que pude jogar no [Switch](https://pt.wikipedia.org/wiki/Nintendo_Switch) graças ao lançamento da versão remasterizada. Mas definitivamente uma coisa que eu gostaria que fosse diferente nos jogos da franquia é o rastreamento no mapa de itens que faltam pegar e lugares que faltam visitar. Mesmo consultando guia, há itens que requerem bastante habilidade e treino pra pegar.
+Como citei antes, joguei vários Metroids apenas recentemente. E sou apaixonado pela franquia, especialmente por [Metroid Prime](https://pt.wikipedia.org/wiki/Metroid_Prime), que pude jogar no [Switch](https://pt.wikipedia.org/wiki/Nintendo_Switch) graças ao lançamento da versão remasterizada. Mas definitivamente uma coisa que eu gostaria que fosse diferente nos jogos da franquia é o rastreamento no mapa de itens que faltam pegar e lugares que faltam visitar. O jogo não rastreia tudo, e mesmo consultando guia, há itens que requerem bastante habilidade e treino pra pegar.
 
 {%
   include image.html
