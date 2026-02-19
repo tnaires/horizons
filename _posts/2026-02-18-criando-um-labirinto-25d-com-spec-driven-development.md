@@ -117,6 +117,8 @@ Sem segredo aqui. Vamos rodar esse comando para fazer o spec-kit gerar a lista d
 /prompts:speckit.tasks
 ```
 
+As tasks geradas podem ser visualizadas [aqui](https://github.com/tnaires/labyrinth/blob/master/specs/001-3d-labyrinth-camera/tasks.md).
+
 #### speckit.analysis
 
 Agora é hora de rodar um comando que eu achei bastante útil e interessante. Ele analisa todas as tarefas criadas no passo anterior, procurando inconsistências e possíveis pontos não totalmente elucidados. Depois ele mesmo sugere as correções a serem aplicadas e você aceita se quiser, ou caso não aceite pode dar suas próprias sugestões.
