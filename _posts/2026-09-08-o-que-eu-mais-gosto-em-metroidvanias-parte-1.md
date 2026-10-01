@@ -20,7 +20,7 @@ Em seguida, ele levanta uma série de pontos de discussão em forma de perguntas
 5. Segurar sua mão vs. exploração às cegas?
 6. História profunda vs. diálogos puláveis?
 7. Fast travel vs. caminhada imersiva?
-8. Combate corpo a corpo vs. a distância?
+8. Combate corpo a corpo vs. à distância?
 9. Pixel art vs. desenhado a mão vs. 2.5D moderno?
 10. Caminho linear vs. liberdade absoluta?
 11. Mapa automático vs. cartografia manual?
