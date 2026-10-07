@@ -73,7 +73,7 @@ Falando mais sobre os aspectos técnicos do jogo, ele me chamou a atenção em m
 
 ### 1) Jogo totalmente em 3D
 
-Primeiro, King's Field é um jogo renderizado totalmente em 3D. Nessa época os jogos em primeira pessoa mais traidicionais tinham cenários 3D mas renderizavam itens e inimigos usando [bitmaps](https://pt.wikipedia.org/wiki/Mapa_de_bits) 2D. Isso é algo que me impressiona até hoje, especialmente se parar pra pensar que se trata de um jogo de 1995.
+Primeiro, King's Field é um jogo renderizado totalmente em 3D. Nessa época os jogos em primeira pessoa mais tradicionais tinham cenários 3D mas renderizavam itens e inimigos usando [bitmaps](https://pt.wikipedia.org/wiki/Mapa_de_bits) 2D. Isso é algo que me impressiona até hoje, especialmente se parar pra pensar que se trata de um jogo de 1995.
 
 ### 2) Progressão não linear
 
