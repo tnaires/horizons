@@ -119,7 +119,7 @@ Desnecessário dizer que acabei dedicando algumas horas da minha franquia de hor
   caption = "A diversidade de cenários é um exemplo do capricho que foi aplicado no desenvolvimento dessa versão."
 %}
 
-O jogo também apresentou um sistema de passwords para ajudar o jogador a não perder o progresso. Eu sempre levava papel e lápis pra anotar as passwords dos jogos que eu jogava nas lojas, mas nos dias que eu esquecia eu precisava decorá-las. Acabei decorando umas poucas passwords do jogo que usei por muito tempo como senhas de email. Uma dessas passwords acabou rendendo um ótimo [post](({{ site.baseurl }}{% post_url 2020-06-18-BQMZXY2 %})) de Bonifacio, já mencionado nesse texto, onde ele decifrou o sistema de passwords da versão de SNES pra descobrir um erro em uma das passwords que eu tinha decorado errado.
+O jogo também apresentou um sistema de passwords para ajudar o jogador a não perder o progresso. Eu sempre levava papel e lápis pra anotar as passwords dos jogos que eu jogava nas lojas, mas nos dias que eu esquecia eu precisava decorá-las. Acabei decorando umas poucas passwords do jogo que usei por muito tempo como senhas de email. Uma dessas passwords acabou rendendo um ótimo [post]({{ site.baseurl }}{% post_url 2020-06-18-BQMZXY2 %}) de Bonifacio, já mencionado nesse texto, onde ele decifrou o sistema de passwords da versão de SNES pra descobrir um erro em uma das passwords que eu tinha decorado errado.
 
 #### Master System
 
